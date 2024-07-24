@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
     position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -11,11 +10,11 @@ sidebar:
     name: James Touthang
     tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
+    location: "Broken Arrow, OK"
     # Sidebar links
     email: james@touthang.info
     phone: (918) 779 - 9989
-    timezone: America/Central Timezone
+    #timezone: America/Central Timezone
     citizenship:
     website: #touthang.info #blog.webjeda.com #do not add http://
     linkedin: jtouthang
@@ -24,11 +23,11 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@toujames' #'@webjeda'
+    twitter: #'@toujames' #'@webjeda'
     stack-overflow: 3359637/toujames # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
+    pdf: raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
 
 education:
     title: Education
@@ -148,29 +147,42 @@ projects:
         link: "https://asianchefdelivery.net"
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills/Programs/Frameworks &amp; Proficiency
     toolset:
       - name: Typescript & Angular
-        level: 90%
-
-      - name: Angular
-        level: 90%
-
-      - name: Javascript & jQuery
-        level: 90%
-
+        level: 95%
       - name: HTML5 & CSS
         level: 95%
-
+      - name: Angular
+        level: 90%
+      - name: Javascript & jQuery
+        level: 90%
+      - name: Python
+        level: 90%
+      - name: R
+        level: 90%
+      - name: Java
+        level: 60%
       - name: Bootstrap
         level: 95%
-
       - name: C# 
         level: 80%
-
+      - name: Matlab
+        level: 60%
+      - name: C++
+        level: 65%
       - name: .NET
         level: 80%
+      - name: SQL
+        level: 80%
+      - name: Visual Studio
+        level: 80%
+      - name: Visual Studio Code
+        level: 85%
+      - name: InDesign
+        level: 60%
+
+      
 
 publications:
     title: Publications

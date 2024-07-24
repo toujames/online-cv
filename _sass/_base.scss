@@ -34,6 +34,7 @@ p {
 }
 
 .wrapper {
+  border-radius: 2rem;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   background: $theme-color;
@@ -44,6 +45,7 @@ p {
 }
 
 .sidebar-wrapper {
+  border-radius: 2rem;
   grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
@@ -52,6 +54,7 @@ p {
     color: #fff;
   }
   .profile-container {
+    border-top-left-radius: 2rem;
     padding: 30px;
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
@@ -69,6 +72,13 @@ p {
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
+    margin-bottom: 0;
+  }
+  .location {
+    color: rgba(256, 256, 256, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 4;
     margin-bottom: 0;
   }
   .profile {
@@ -160,6 +170,8 @@ p {
 }
 
 .main-wrapper {
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   grid-column: span 7;
   order: $resume-order;
   background: #fff;

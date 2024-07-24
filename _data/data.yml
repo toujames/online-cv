@@ -99,7 +99,7 @@ experiences:
         company: New York Genome Center	 | NY, New York
         details: |
           -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
-          -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data at http://repgp.teamerlich.org for scientist to utilize the files.
+          -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data for scientist to utilize the files.
 
 certifications:
   title: Leadership Experience

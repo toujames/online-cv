@@ -17,7 +17,7 @@ sidebar:
     phone: (918) 779 - 9989
     timezone: America/Central Timezone
     citizenship:
-    website: #blog.webjeda.com #do not add http://
+    website: touthang.info #blog.webjeda.com #do not add http://
     linkedin: jtouthang
     xing: 
     github: toujames
@@ -28,7 +28,7 @@ sidebar:
     stack-overflow: 3359637/toujames # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: #resume.pdf
+    pdf: https://raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
 
     languages:
       title: Languages
@@ -115,26 +115,6 @@ projects:
       - title: Asian Chef Delivery
         link: "https://asianchefdelivery.net"
 
-publications:
-    title: Publications
-    intro: |
-      I've had the pleasure of co-authoring many papers at my time at LIBR.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
 skills:
     title: Skills &amp; Proficiency
 
@@ -160,4 +140,105 @@ skills:
       - name: .NET
         level: 80%
 
+publications:
+    title: Publications
+    intro: |
+      I've had the pleasure of co-authoring many papers at my time at LIBR.
+    papers:
+      - title: "Greater decision uncertainty characterizes a transdiagnostic patient sample during approach-avoidance conflict: a computational modelling approach"
+        link: "https://www.jpn.ca/content/46/1/E74?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Journal_of_Psychiatry_and_Neuroscience_TrendMD_0"
+        authors: Ryan Smith, Namik Kirlic, Jennifer L Stewart, James Touthang, Rayus Kuplicki, Sahib S Khalsa, Justin Feinstein, Martin P Paulus, Robin L Aupperle
+        journal: Journal of Psychiatry and Neuroscience
+
+      - title: "Long-term stability of computational parameters during approach-avoidance conflict in a transdiagnostic psychiatric patient sample"
+        link: "https://www.nature.com/articles/s41598-021-91308-x"
+        authors: Ryan Smith, Namik Kirlic, Jennifer L Stewart, James Touthang, Rayus Kuplicki, Timothy J McDermott, Samuel Taylor, Sahib S Khalsa, Martin P Paulus, Robin L Aupperle
+        journal: "Scientific reports"
+
+      - title: "Visual cortical regions show sufficient test-retest reliability while salience regions are unreliable during emotional face processing"
+        link: "https://www.sciencedirect.com/science/article/pii/S1053811920305632"
+        authors: Timothy J McDermott, Namik Kirlic, Elisabeth Akeman, James Touthang, Kelly T Cosgrove, Danielle C DeVille, Ashley N Clausen, Evan J White, Rayus Kuplicki, Robin L Aupperle
+        journal: Neuroimage
+
+      - title: "Web-based graphic representation of the life course of mental health: cross-sectional study across the spectrum of mood, anxiety, eating, and substance use disorders"
+        link: "https://mental.jmir.org/2020/1/e16919/"
+        authors: Robin Leora Aupperle, Martin P Paulus, Rayus Kuplicki, James Touthang, Teresa Victor, Hung-Wen Yeh, Sahib S Khalsa, Tulsa 1000 Investigators Tulsa 1000 Investigators
+        journal: JMIR mental health
+
+      - title: "P300 amplitude during a monetary incentive delay task predicts future therapy completion in individuals with major depressive disorder"
+        link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8554135/"
+        authors: Evan J White, Mariah Nacke, Elisabeth Akeman, Mallory J Cannon, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Timothy J McDermott, Namik Kirlic, Jessica Santiago, Rayus Kuplicki, Jerzy Bodurka, Martin P Paulus, Michelle G Craske, Kate Wolitzky-Taylor, James Abelson, Christopher Martell, Ashley Clausen, Jennifer L Stewart, Robin L Aupperle
+        journal: Journal of affective disorders
+
+      - title: "A machine learning analysis of risk and protective factors of suicidal thoughts and behaviors in college students"
+        link: "https://www.tandfonline.com/doi/pdf/10.1080/07448481.2021.1947841"
+        authors: Namik Kirlic, Elisabeth Akeman, Danielle C DeVille, Hung-Wen Yeh, Kelly T Cosgrove, Timothy J McDermott, James Touthang, Ashley Clausen, Martin P Paulus, Robin L Aupperle
+        journal: Journal of American college health
+
+      - title: "Test–retest reliability of approach‐avoidance conflict decision‐making during functional magnetic resonance imaging in healthy adults"
+        link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.25371
+        authors: Timothy J McDermott, Namik Kirlic, Elisabeth Akeman, James Touthang, Ashley N Clausen, Rayus Kuplicki, Robin L Aupperle
+        journal: Human Brain Mapping
+
+      - title: "Striatal reactivity during emotion and reward relates to approach–avoidance conflict behaviour and is altered in adults with anxiety or depression"
+        link: https://www.jpn.ca/content/jpn/47/5/E311.full.pdf
+        authors: Timothy J McDermott, Hannah Berg, James Touthang, Elisabeth Akeman, Mallory J Cannon, Jessica Santiago, Kelly T Cosgrove, Ashley N Clausen, Namik Kirlic, Ryan Smith, Michelle G Craske, James L Abelson, Martin P Paulus, Robin L Aupperle
+        journal: Journal of Psychiatry and Neuroscience
+
+      - title: "Common data elements, scalable data management infrastructure, and analytics workflows for large-scale neuroimaging studies"
+        link: https://www.frontiersin.org/articles/10.3389/fpsyt.2021.682495/full
+        authors: Rayus Kuplicki, James Touthang, Obada Al Zoubi, Ahmad Mayeli, Masaya Misaki, NeuroMAP-Investigators, Robin L Aupperle, T Kent Teague, Brett A McKinney, Martin P Paulus, Jerzy Bodurka
+        journal: Frontiers in Psychiatry
+
+      - title: "Rapid, reliable mobile assessment of affect-related motor processing"
+        link: https://link.springer.com/article/10.3758/s13428-022-02015-y
+        authors: Jonathon R Howlett, Florence Larkin, James Touthang, Rayus T Kuplicki, Kelvin O Lim, Martin P Paulus
+        journal: Behavior Research Methods
+
+      - title: "Behavioral and neural responses during fear conditioning and extinction in a large transdiagnostic sample"
+        link: https://www.sciencedirect.com/science/article/pii/S2213158222001255
+        authors: Namik Kirlic, Rayus Kuplicki, James Touthang, Zsofia P Cohen, Jennifer L Stewart, Martin P Paulus, Robin L Aupperle, Tulsa 1000 Investigators
+        journal: "NeuroImage: Clinical"
+
+      - title: "Blunted stimulus-preceding negativity during reward anticipation in major depressive disorder"
+        link: https://www.sciencedirect.com/science/article/pii/S0165032724011170
+        authors: Xi Ren, Evan J White, Mariah Nacke, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Rayus Kuplicki, Teresa A Victor, Martin P Paulus, Robin L Aupperle, Jennifer L Stewart
+        journal: Journal of Affective Disorders
+
+      - title: "Ventromedial prefrontal cortex activation and neurofeedback modulation during episodic future thinking for individuals with suicidal thoughts and behaviors"
+        link: https://www.sciencedirect.com/science/article/pii/S0005796724000494
+        authors: RL Aupperle, R Kuplicki, A Tsuchiyagaito, E Akeman, CA Sturycz-Taylor, D DeVille, T Lasswell, M Misaki, H Berg, TJ McDermott, J Touthang, ED Ballard, C Cha, DL Schacter, MP Paulus
+        journal: Behaviour Research and Therapy
+
+      - title: "Behavioral Activation and Exposure Therapy Improve Anxiety Symptoms and Alter Neural Processing of Approach-Avoidance Conflict"
+        link: https://scholar.google.com/scholar?cluster=10011733837430400880&hl=en&oi=scholarr
+        authors: Hannah Berg, Timothy McDermott, Elisabeth Akeman, Jessica Santiago, James Touthang, Kelly Cosgrove, Mallory Cannon, Ashley Clausen, Namik Kirlic, Ryan Smith, Christopher Martell, Kate Wolitzky-Taylor, Michelle Craske, James Abelson, Jerzy Bodurka, Martin Paulus, Robin Aupperle
+        conference: NEUROPSYCHOPHARMACOLOGY
+
+      - title: "Real-Time fMRI Neurofeedback of Left Dorsolateral Prefrontal Cortex During Emotional Cognitive Control: A Randomized Controlled Trial"
+        link: https://scholar.google.com/scholar?cluster=44108051805355010&hl=en&oi=scholarr
+        authors: Timothy McDermott, Tsuchiyagaito Aki, Ramirez Sam, Mallory Cannon, James Touthang, Masaya Misaki, Robin Aupperle
+        conference: NEUROPSYCHOPHARMACOLOGY
+
+      - title: "BLUNTED INSULA CORTICAL ACTIVATION DURING REWARD ANTICIPATION IN MAJOR DEPRESSIVE DISORDERS"
+        link: https://scholar.google.com/scholar?cluster=13368688291685510900&hl=en&oi=scholarr
+        authors: Xi Ren, Evan White, Mariah Nacke, Elisabeth Akeman, Mallory Cannon, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Timothy McDermott, Namik Kirlic, Jessica Santiago, Rayus Kuplicki, Martin Paulus, Michelle Craske, Kate Wolitzky-Taylor, James Abelson, Christopher Martell, Ashley Clausen, Robin Aupperle, Jennifer Stewart
+        conference: PSYCHOPHYSIOLOGY
+
+      - title: "P320. Waiting for the Payoff: Electrical Anticipation Response in Individuals With Depression/Anxiety Disorders"
+        link: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00643-6/abstract
+        authors: Xi Ren, Mariah Nacke, Evan White, Elisabeth Akeman, Mallory Cannon, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Timothy McDermott, Namik Kirlic, Jessica Santiago, Rayus Kuplicki, Jerzy Bodurka, Martin Paulus, Michelle Craske, Kate Wolitzky-Taylor, James Abelson, Christopher Martell, Ashley Clausen, Robin Aupperle, Jennifer Stewart
+        journal: Biological Psychiatry
+
+      - title: "Sensitivity to Expected Negative Outcomes during Approach-Avoidance Conflict in a Trans-Diagnostic Patient Sample: A Computational (Active Inference) Modeling Approach"
+        link: "https://www.academia.edu/download/103341501/j.biopsych.2020.02.86420230613-1-gkxtkj.pdf"
+        authors: Ryan Smith, Namik Kirlic, Jennifer Stewart, James Touthang, Sahib Khalsa, Rayus Kuplicki, Martin Paulus, Robin Aupperle
+        journal: Biological Psychiatry
+
+      - title: "I'm still standing: A machine learning analysis of risk and protective factors of suicidal thoughts and behaviors in college students"
+        link: https://osf.io/preprints/zx352/
+        authors: Namik Kirlic, Elisabeth Akeman, Danielle DeVille, Henry Yeh, Kelly Theresa Cosgrove, Timothy McDermott, James Touthang, Ashley Clausen, Martin Paulus, Robin Aupperle
+        journal: OSF
+
+        
 footer: >

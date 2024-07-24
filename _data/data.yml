@@ -17,24 +17,18 @@ sidebar:
     phone: (918) 779 - 9989
     timezone: America/Central Timezone
     citizenship:
-    website: touthang.info #blog.webjeda.com #do not add http://
+    website: #touthang.info #blog.webjeda.com #do not add http://
     linkedin: jtouthang
     xing: 
     github: toujames
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: #'@webjeda'
+    twitter: '@toujames' #'@webjeda'
     stack-overflow: 3359637/toujames # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+    pdf: #raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
 
 education:
     title: Education
@@ -51,46 +45,63 @@ education:
             - Bullet point
             - Bullet point
 
+      - degree: BA in Biomedical Chemistry
+        university: Oral Roberts University
+        time: 2012 - 2014
+        details: |
+          
+
 experiences:
     title: Experiences
     info:
       - role: Software Engineer IV
-        time: 2022 - Present
+        time: June 2024 - Present
         company: FlightSafety International Inc. | Broken Arrow, OK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
+          - Modifies and writes device drivers for interfacing with hardware.
+          - Creates and modifies real-time executive and control software.
+          - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
+          - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
+          - Provides support to team leaders and project engineers in software requirements, design, and implementation.
+          - Provides guidance to less senior engineers in the department. Provides recommendations for improvements.
+          - Documents operating system, application and development software.
+          - Works with fellow software engineers, hardware engineers and management to affect a smoothly integrated system.
+          - Performs application design from research to testing phase with limited supervision.
       - role: Software Engineer III
-        time: 2022 - 2024
+        time: August 2022 - June 2024
         company: FlightSafety International Inc. | Broken Arrow, OK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
+          - Modifies and writes device drivers for interfacing with hardware.
+          - Creates and modifies real-time executive and control software.
+          - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
+          - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
+          - Provides support to team leaders and project engineers in software requirements, design, and implementation.
+          - Documents operating system, application and development software.
       - role: Software Engineer
-        time: 2017 - 2022
+        time: June 2018 - August 2022
         company: Laureate Institute for Brain Research | Tulsa, OK
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          -	Built an Online Web Application called Tulsa Life Chart in Node.js to collect PII and various relevant information regarding participants’ life and mental health history.
+          -	Wrote an object-oriented organization script in Python to automate converting MRI DICOM data into BIDS format on all new studies in the institute.
+          -	Built a web application platform in Node.js for online psychological task paradigm using the PsychoJS framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
+          -	Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
+      - role: Research Intern
+        time: August 2017 - June 2018
+        company: Laureate Institute for Brain Research | Tulsa, OK
+        details: |
+          -	Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
+          -	Created plots in R from Life Chart database to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
+          -	Wrote a python script to slice Skin conductance data using a FFT over sliding window.
+      - role: Student Intern
+        time: June 2016 - August 2016
+        company: New York Genome Center	 | NY, New York
+        details: |
+          -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
+          -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data at http://repgp.teamerlich.org for scientist to utilize the files.
+
+
 
 projects:
     title: Projects
@@ -148,67 +159,67 @@ publications:
       - title: "Greater decision uncertainty characterizes a transdiagnostic patient sample during approach-avoidance conflict: a computational modelling approach"
         link: "https://www.jpn.ca/content/46/1/E74?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Journal_of_Psychiatry_and_Neuroscience_TrendMD_0"
         authors: Ryan Smith, Namik Kirlic, Jennifer L Stewart, James Touthang, Rayus Kuplicki, Sahib S Khalsa, Justin Feinstein, Martin P Paulus, Robin L Aupperle
-        journal: Journal of Psychiatry and Neuroscience
+        conference: Journal of Psychiatry and Neuroscience
 
       - title: "Long-term stability of computational parameters during approach-avoidance conflict in a transdiagnostic psychiatric patient sample"
         link: "https://www.nature.com/articles/s41598-021-91308-x"
         authors: Ryan Smith, Namik Kirlic, Jennifer L Stewart, James Touthang, Rayus Kuplicki, Timothy J McDermott, Samuel Taylor, Sahib S Khalsa, Martin P Paulus, Robin L Aupperle
-        journal: "Scientific reports"
+        conference: "Scientific reports"
 
       - title: "Visual cortical regions show sufficient test-retest reliability while salience regions are unreliable during emotional face processing"
         link: "https://www.sciencedirect.com/science/article/pii/S1053811920305632"
         authors: Timothy J McDermott, Namik Kirlic, Elisabeth Akeman, James Touthang, Kelly T Cosgrove, Danielle C DeVille, Ashley N Clausen, Evan J White, Rayus Kuplicki, Robin L Aupperle
-        journal: Neuroimage
+        conference: Neuroimage
 
       - title: "Web-based graphic representation of the life course of mental health: cross-sectional study across the spectrum of mood, anxiety, eating, and substance use disorders"
         link: "https://mental.jmir.org/2020/1/e16919/"
         authors: Robin Leora Aupperle, Martin P Paulus, Rayus Kuplicki, James Touthang, Teresa Victor, Hung-Wen Yeh, Sahib S Khalsa, Tulsa 1000 Investigators Tulsa 1000 Investigators
-        journal: JMIR mental health
+        conference: JMIR mental health
 
       - title: "P300 amplitude during a monetary incentive delay task predicts future therapy completion in individuals with major depressive disorder"
         link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8554135/"
         authors: Evan J White, Mariah Nacke, Elisabeth Akeman, Mallory J Cannon, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Timothy J McDermott, Namik Kirlic, Jessica Santiago, Rayus Kuplicki, Jerzy Bodurka, Martin P Paulus, Michelle G Craske, Kate Wolitzky-Taylor, James Abelson, Christopher Martell, Ashley Clausen, Jennifer L Stewart, Robin L Aupperle
-        journal: Journal of affective disorders
+        conference: Journal of affective disorders
 
       - title: "A machine learning analysis of risk and protective factors of suicidal thoughts and behaviors in college students"
         link: "https://www.tandfonline.com/doi/pdf/10.1080/07448481.2021.1947841"
         authors: Namik Kirlic, Elisabeth Akeman, Danielle C DeVille, Hung-Wen Yeh, Kelly T Cosgrove, Timothy J McDermott, James Touthang, Ashley Clausen, Martin P Paulus, Robin L Aupperle
-        journal: Journal of American college health
+        conference: Journal of American college health
 
       - title: "Test–retest reliability of approach‐avoidance conflict decision‐making during functional magnetic resonance imaging in healthy adults"
         link: https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.25371
         authors: Timothy J McDermott, Namik Kirlic, Elisabeth Akeman, James Touthang, Ashley N Clausen, Rayus Kuplicki, Robin L Aupperle
-        journal: Human Brain Mapping
+        conference: Human Brain Mapping
 
       - title: "Striatal reactivity during emotion and reward relates to approach–avoidance conflict behaviour and is altered in adults with anxiety or depression"
         link: https://www.jpn.ca/content/jpn/47/5/E311.full.pdf
         authors: Timothy J McDermott, Hannah Berg, James Touthang, Elisabeth Akeman, Mallory J Cannon, Jessica Santiago, Kelly T Cosgrove, Ashley N Clausen, Namik Kirlic, Ryan Smith, Michelle G Craske, James L Abelson, Martin P Paulus, Robin L Aupperle
-        journal: Journal of Psychiatry and Neuroscience
+        conference: Journal of Psychiatry and Neuroscience
 
       - title: "Common data elements, scalable data management infrastructure, and analytics workflows for large-scale neuroimaging studies"
         link: https://www.frontiersin.org/articles/10.3389/fpsyt.2021.682495/full
         authors: Rayus Kuplicki, James Touthang, Obada Al Zoubi, Ahmad Mayeli, Masaya Misaki, NeuroMAP-Investigators, Robin L Aupperle, T Kent Teague, Brett A McKinney, Martin P Paulus, Jerzy Bodurka
-        journal: Frontiers in Psychiatry
+        conference: Frontiers in Psychiatry
 
       - title: "Rapid, reliable mobile assessment of affect-related motor processing"
         link: https://link.springer.com/article/10.3758/s13428-022-02015-y
         authors: Jonathon R Howlett, Florence Larkin, James Touthang, Rayus T Kuplicki, Kelvin O Lim, Martin P Paulus
-        journal: Behavior Research Methods
+        conference: Behavior Research Methods
 
       - title: "Behavioral and neural responses during fear conditioning and extinction in a large transdiagnostic sample"
         link: https://www.sciencedirect.com/science/article/pii/S2213158222001255
         authors: Namik Kirlic, Rayus Kuplicki, James Touthang, Zsofia P Cohen, Jennifer L Stewart, Martin P Paulus, Robin L Aupperle, Tulsa 1000 Investigators
-        journal: "NeuroImage: Clinical"
+        conference: "NeuroImage: Clinical"
 
       - title: "Blunted stimulus-preceding negativity during reward anticipation in major depressive disorder"
         link: https://www.sciencedirect.com/science/article/pii/S0165032724011170
         authors: Xi Ren, Evan J White, Mariah Nacke, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Rayus Kuplicki, Teresa A Victor, Martin P Paulus, Robin L Aupperle, Jennifer L Stewart
-        journal: Journal of Affective Disorders
+        conference: Journal of Affective Disorders
 
       - title: "Ventromedial prefrontal cortex activation and neurofeedback modulation during episodic future thinking for individuals with suicidal thoughts and behaviors"
         link: https://www.sciencedirect.com/science/article/pii/S0005796724000494
         authors: RL Aupperle, R Kuplicki, A Tsuchiyagaito, E Akeman, CA Sturycz-Taylor, D DeVille, T Lasswell, M Misaki, H Berg, TJ McDermott, J Touthang, ED Ballard, C Cha, DL Schacter, MP Paulus
-        journal: Behaviour Research and Therapy
+        conference: Behaviour Research and Therapy
 
       - title: "Behavioral Activation and Exposure Therapy Improve Anxiety Symptoms and Alter Neural Processing of Approach-Avoidance Conflict"
         link: https://scholar.google.com/scholar?cluster=10011733837430400880&hl=en&oi=scholarr
@@ -228,17 +239,17 @@ publications:
       - title: "P320. Waiting for the Payoff: Electrical Anticipation Response in Individuals With Depression/Anxiety Disorders"
         link: https://www.biologicalpsychiatryjournal.com/article/S0006-3223(22)00643-6/abstract
         authors: Xi Ren, Mariah Nacke, Evan White, Elisabeth Akeman, Mallory Cannon, Ahmad Mayeli, James Touthang, Obada Al Zoubi, Timothy McDermott, Namik Kirlic, Jessica Santiago, Rayus Kuplicki, Jerzy Bodurka, Martin Paulus, Michelle Craske, Kate Wolitzky-Taylor, James Abelson, Christopher Martell, Ashley Clausen, Robin Aupperle, Jennifer Stewart
-        journal: Biological Psychiatry
+        conference: Biological Psychiatry
 
       - title: "Sensitivity to Expected Negative Outcomes during Approach-Avoidance Conflict in a Trans-Diagnostic Patient Sample: A Computational (Active Inference) Modeling Approach"
         link: "https://www.academia.edu/download/103341501/j.biopsych.2020.02.86420230613-1-gkxtkj.pdf"
         authors: Ryan Smith, Namik Kirlic, Jennifer Stewart, James Touthang, Sahib Khalsa, Rayus Kuplicki, Martin Paulus, Robin Aupperle
-        journal: Biological Psychiatry
+        conference: Biological Psychiatry
 
       - title: "I'm still standing: A machine learning analysis of risk and protective factors of suicidal thoughts and behaviors in college students"
         link: https://osf.io/preprints/zx352/
         authors: Namik Kirlic, Elisabeth Akeman, Danielle DeVille, Henry Yeh, Kelly Theresa Cosgrove, Timothy McDermott, James Touthang, Ashley Clausen, Martin Paulus, Robin Aupperle
-        journal: OSF
+        conference: OSF
 
         
 footer: >

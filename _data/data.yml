@@ -29,6 +29,17 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
 
+    interests:
+      title: "Interests"
+      info:
+        - item: "Audio Engineering"
+        - item: "Music / Playing Drums"
+        - item: "Aviation"
+        - item: "Healthcare"
+
+career-profile:
+  title: "About Me"
+  summary: "My name is a James and I'm a software engineer in Tulsa, OK and I love programming."
 education:
     title: Education
     info:
@@ -53,52 +64,60 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Software Engineer IV
-        time: June 2024 - Present
-        company: FlightSafety International Inc. | Broken Arrow, OK
-        details: |
-          - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
-          - Modifies and writes device drivers for interfacing with hardware.
-          - Creates and modifies real-time executive and control software.
-          - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
-          - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
-          - Provides support to team leaders and project engineers in software requirements, design, and implementation.
-          - Provides guidance to less senior engineers in the department. Provides recommendations for improvements.
-          - Documents operating system, application and development software.
-          - Works with fellow software engineers, hardware engineers and management to affect a smoothly integrated system.
-          - Performs application design from research to testing phase with limited supervision.
-      - role: Software Engineer III
-        time: August 2022 - June 2024
-        company: FlightSafety International Inc. | Broken Arrow, OK
-        details: |
-          - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
-          - Modifies and writes device drivers for interfacing with hardware.
-          - Creates and modifies real-time executive and control software.
-          - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
-          - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
-          - Provides support to team leaders and project engineers in software requirements, design, and implementation.
-          - Documents operating system, application and development software.
-      - role: Software Engineer
-        time: June 2018 - August 2022
-        company: Laureate Institute for Brain Research | Tulsa, OK
-        details: |
-          -	Built an Online Web Application called Tulsa Life Chart in Node.js to collect PII and various relevant information regarding participants’ life and mental health history.
-          -	Wrote an object-oriented organization script in Python to automate converting MRI DICOM data into BIDS format on all new studies in the institute.
-          -	Built a web application platform in Node.js for online psychological task paradigm using the PsychoJS framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
-          -	Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
-      - role: Research Intern
-        time: August 2017 - June 2018
-        company: Laureate Institute for Brain Research | Tulsa, OK
-        details: |
-          -	Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
-          -	Created plots in R from Life Chart database to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
-          -	Wrote a python script to slice Skin conductance data using a FFT over sliding window.
-      - role: Student Intern
-        time: June 2016 - August 2016
-        company: New York Genome Center	 | NY, New York
-        details: |
-          -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
-          -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data for scientist to utilize the files.
+      - company: FlightSafety International Inc.
+        location: Broken Arrow, OK
+        time: "2 years"
+        roles: 
+          - name: Software Engineer IV
+            time: June 2024 - Present
+            details: |
+              - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
+              - Creates and modifies real-time executive and control software.
+              - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
+              - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
+              - Provides support to team leaders and project engineers in software requirements, design, and implementation.
+              - Provides guidance to less senior engineers in the department. Provides recommendations for improvements.
+              - Documents operating system, application and development software.
+              - Works with fellow software engineers, hardware engineers and management to affect a smoothly integrated system.
+              - Performs application design from research to testing phase with limited supervision.
+            technologies: "Anguler, Typesript, C#, .NET, C++, Azure DevOps, TFVC"
+          
+          - name: Software Engineer III
+            time: August 2022 - June 2024
+            details: |
+              - Designs, creates, and modifies and maintains applications, development frameworks, and systems level software. Creation of some new applications.
+              - Creates and modifies real-time executive and control software.
+              - Designs, modifies, and creates mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
+              - Evaluates hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
+              - Provides support to team leaders and project engineers in software requirements, design, and implementation.
+              - Documents operating system, application and development software.
+            technologies: "Anguler, Typesript, C#, .NET, C++, Jira, Git"
+      - company: Laureate Institute for Brain Research
+        location: Tulsa, OK
+        time: 5 years
+        company: Laureate Institute for Brain Research
+        roles:
+          - name: Software Engineer
+            time: June 2018 - August 2022
+            details: |
+              -	Built an Online Web Application called Tulsa Life Chart in Node.js to collect PII and various relevant information regarding participants’ life and mental health history.
+              -	Wrote an object-oriented organization script in Python to automate converting MRI DICOM data into BIDS format on all new studies in the institute.
+              -	Built a web application platform in Node.js for online psychological task paradigm using the PsychoJS framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
+              -	Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
+          - name: Research Intern
+            time: August 2017 - June 2018
+            details: |
+              -	Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
+              -	Created plots in R from Life Chart database to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
+              -	Wrote a python script to slice Skin conductance data using a FFT over sliding window.
+      - company: New York Genome Center
+        location: NY, New York
+        roles:
+          - name: Student Intern
+            time: June 2016 - August 2016
+            details: |
+              -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
+              -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data for scientist to utilize the files.
 
 certifications:
   title: Leadership Experience
@@ -126,7 +145,7 @@ certifications:
 projects:
     title: Projects
     intro: >
-      Some of the website I created and maintain.
+      Some of the website I help create and maintain.
     assignments:
       - title: Peniel Baptist Church
         link: "https://pbctulsa.org"
@@ -147,7 +166,7 @@ projects:
         link: "https://asianchefdelivery.net"
 
 skills:
-    title: Skills/Programs/Frameworks &amp; Proficiency
+    title: Skills &amp; Proficiency
     toolset:
       - name: Typescript & Angular
         level: 95%
@@ -161,33 +180,22 @@ skills:
         level: 90%
       - name: R
         level: 90%
-      - name: Java
-        level: 60%
-      - name: Bootstrap
-        level: 95%
       - name: C# 
-        level: 80%
-      - name: Matlab
-        level: 60%
-      - name: C++
-        level: 65%
-      - name: .NET
         level: 80%
       - name: SQL
         level: 80%
-      - name: Visual Studio
-        level: 80%
-      - name: Visual Studio Code
-        level: 85%
-      - name: InDesign
+      - name: C++
+        level: 65%
+      - name: Java
         level: 60%
-
+      - name: Matlab
+        level: 60%
       
 
 publications:
     title: Publications
     intro: |
-      I've had the pleasure of co-authoring many papers at my time at LIBR.
+      I've had the pleasure of co-authoring some papers at my time at LIBR.
     papers:
       - title: "Greater decision uncertainty characterizes a transdiagnostic patient sample during approach-avoidance conflict: a computational modelling approach"
         link: "https://www.jpn.ca/content/46/1/E74?utm_source=TrendMD&utm_medium=cpc&utm_campaign=Journal_of_Psychiatry_and_Neuroscience_TrendMD_0"

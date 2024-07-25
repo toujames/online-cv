@@ -188,6 +188,12 @@ p {
   .section {
     margin-bottom: 60px;
   }
+  .technologies{
+    margin-bottom: 20px;
+  }
+  .technologies-title{
+    font-weight: bold;
+  }
 
   .experiences-section,
   .educations-section {
@@ -195,12 +201,21 @@ p {
       margin-bottom: 30px;
     }
   }
+  .vertical {
+    Float:left;
+    height:100px;
+    width:1px; /* edit this if you want */
+    background-color: black
+  }
   .upper-row,
   .second-upper-row {
     position: relative;
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+  }
+  .second-upper-row, .technologies{
+    margin-left: 15px;
   }
   .job-title,
   .degree,
@@ -220,11 +235,18 @@ p {
     color: $text-grey;
     flex: 25%;
   }
-  .company,
+
   .university,
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
+  }
+  .company{
+    color: $text-grey;
+    margin-bottom: 0px;
+  }
+  .company-duration{
+    position: relative;
   }
 
   .project-title {
@@ -264,6 +286,15 @@ p {
   }
 }
 
+.level-bar {
+  height: 5px;
+  background: white; 
+}
+.level-bar-inner {
+  height: 5px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
 .skillset {
   .item {
     margin-bottom: 15px;
@@ -276,11 +307,11 @@ p {
   }
   .level-bar {
     height: 12px;
-    background: $smoky-white;
+    background: white; 
   }
   .level-bar-inner {
     height: 12px;
-    background: lighten($theme-color, 15%);
+    background: black;
   }
 }
 

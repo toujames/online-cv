@@ -35,6 +35,7 @@ sidebar:
         - item: "Audio Engineering"
         - item: "Music / Playing Drums"
         - item: "Aviation"
+        - item: "Research"
         - item: "Healthcare"
 
 career-profile:
@@ -104,12 +105,14 @@ experiences:
               -	Wrote an object-oriented organization script in Python to automate converting MRI DICOM data into BIDS format on all new studies in the institute.
               -	Built a web application platform in Node.js for online psychological task paradigm using the PsychoJS framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
               -	Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
+            technologies: "Node.js, Express framework, Javascript, Python, R, RedCap API, Slurm, PsychoJS Library, Git, Gitlab, Bash, Matlab, HTML, CSS, Machine Learning, Tensorflow"
           - name: Research Intern
             time: August 2017 - June 2018
             details: |
               -	Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
               -	Created plots in R from Life Chart database to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
               -	Wrote a python script to slice Skin conductance data using a FFT over sliding window.
+            technologies: "Node.js, Express framework, Javascript, Python, R, Git, Gitlab, Bash, HTML, CSS"
       - company: New York Genome Center
         location: NY, New York
         roles:
@@ -118,6 +121,7 @@ experiences:
             details: |
               -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
               -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data for scientist to utilize the files.
+            technologies: "AWS, Python, Bash, Javascript, HTML, CSS"
 
 certifications:
   title: Leadership Experience
@@ -182,14 +186,22 @@ skills:
         level: 90%
       - name: C# 
         level: 80%
+      - name: BASH
+        level: 80%
       - name: SQL
         level: 80%
+      - name: Machine Learning
+        level: 30%
       - name: C++
         level: 65%
       - name: Java
         level: 60%
       - name: Matlab
         level: 60%
+      - name: Tensorflow
+        level: 30%
+      - name: slurm/cluster management
+        level: 40%
       
 
 publications:

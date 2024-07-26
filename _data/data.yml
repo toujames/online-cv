@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: 3359637/toujames # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
+    pdf: https://raw.githubusercontent.com/toujames/online-cv/master/assets/resume.pdf
 
     interests:
       title: "Interests"

@@ -131,8 +131,9 @@ certifications:
       organization: Peniel Baptist Church
       details: |
         -	Responsible for purchasing Audio, Video and Network Equipment for the entire campus.
-        -	Training and mentoring volunteers using audio and video equipment.
+        -	Training and mentoring volunteers using software like ProPresenter, dante, audio and video equipment.
         -	Directing program and preparing visuals each Sunday as well as mixing the Front of House audio.
+      technologies: "Dante, ATEM, ProPresenter, Behringer X32"
     - name: Treasurer
       start: August 2016
       end: December 2016 

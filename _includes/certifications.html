@@ -38,8 +38,15 @@
       </div>
     </div>
     <!--//meta-->
-
     <div class="details">{{ certifications.details | markdownify }}</div>
+    {% if certifications.technologies %}
+      <div class="technologies">
+        <span class="technologies-title">Technologies Used: </span>
+        <span class="">
+          {{ certifications.technologies }}
+        </span>
+      </div>
+      {% endif %}
   </div>
   <!--//item-->
   {% endfor %}

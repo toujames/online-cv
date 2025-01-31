@@ -72,26 +72,21 @@ experiences:
           - name: Software Engineer IV
             time: June 2024 - Present
             details: |
-              - Worked with the application team to help design, create, modify and maintain applications, development frameworks, and systems level software.
-              - Create and modifiy real-time executive and control software in both local and distributed systems.
-              - Design, modifiy, and create mathematical support library, systems utilities, and debug packages under the direction of a more senior engineer.
-              - Evaluate hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
-              - Provide support to team leaders and project engineers in software requirements, design, and implementation.
-              - Provide guidance to less senior engineers in the department. Provides recommendations for improvements.
-              - Documenting operating system, application and development software.
-              - Works with fellow software engineers, hardware engineers, flight engineers and management to affect a smoothly integrated and distributed system.
-              - Performs application design from research to testing phase with limited supervision.
+              - Designed, built and maintain a frontend Angular web application with a .NET C# middleware and C++ backend for simulation control through unit tests, code reviews and software best practices.
+              - Participating in Agile methodologies such as daily scrum, sprint planning and reviews with the applications team.
+              - Maintain a .NET Framework C# windows forms quality test guide desktop application used to verify simulators to meet aircraft specifications with government organization with Federal Aviation Administration and European Union Aviation Safety Agency.
+              - Setup initial CI/CD pipeline in Azure DevOps to test, build and package software to allow for easier install.
+              - Update and maintain wiki documentation to guide other engineers and software integrators to install our developed application.
             technologies: "Anguler, Typesript, C#, .NET Framework, .NET 7, C++, Azure DevOps, TFVC, "
           
           - name: Software Engineer III
             time: August 2022 - June 2024
             details: |
-              - Design, create, modify and maintain applications, development frameworks, and systems level software.
-              - Create and modifiy real-time executive and control software in both local and distributed systems.
-              - Evaluate hardware and software to be installed on FSI-SS computer systems. Provides reports and recommendations.
-              - Provide support to team leaders and project engineers in software requirements, design, and implementation.
-              - Document operating system, application and development software.
+             - Designed and built front end angular web application for creating, updating and deleting simulation configuration loads using a .NET C# backend and Entity Framework Core as ORM to an SQL database.
+             - Maintained .NET C# desktop application by fixing bugs and features requests from other departments that utilize the application.
+             - Created CI/CD pipeline to run Static Application Security Test on .NET C# desktop application.
             technologies: "Anguler, Typesript, C#, .NET, C++, Jira, Git"
+
       - company: Laureate Institute for Brain Research
         location: Tulsa, OK
         time: 5 years
@@ -100,17 +95,22 @@ experiences:
           - name: Software Engineer
             time: June 2018 - August 2022
             details: |
-              -	Built an Online Web Application called Tulsa Life Chart in Node.js to collect PII and various relevant information regarding participants’ life and mental health history.
-              -	Wrote an object-oriented organization script in Python to automate converting MRI DICOM data into BIDS format on all new studies in the institute.
-              -	Built a web application platform in Node.js for online psychological task paradigm using the PsychoJS framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
-              -	Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
+              - Design and built an online web application called Tulsa Life Chart with JavaScript front end and Node.js backend to collect PII and various relevant information regarding participants’ life and mental health history stored in an SQL database.
+              - Wrote an object-oriented organization script in Python to automate and convert terabytes of MRI DICOM data into a standardized BIDS format on all new studies in the institute.
+              - Built a web application platform in Node.js for online psychological task paradigms using the PsychoPy framework used for local and remote online behavioral studies on Amazon Mechanical Turk.
+              - Created CI/CD pipeline to test, build and publish web application changes using GitHub actions and source control with Gitlab.
+              - Setup and integrate psychological experiments to collect eye blinks, using BIOPAC system and electrostatic shock device.
+              - Co-authoring 20 brain research papers in collaboration with researchers within and outside of the institute.
+
             technologies: "Node.js, Express framework, Javascript, Python, R, RedCap API, Slurm, PsychoJS Library, Git, Gitlab, Bash, Matlab, HTML, CSS, Machine Learning, Tensorflow"
           - name: Research Intern
             time: August 2017 - June 2018
             details: |
-              -	Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
-              -	Created plots in R from Life Chart database to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
-              -	Wrote a python script to slice Skin conductance data using a FFT over sliding window.
+              - Extracting data from generated onsite tasks used for analyzing correlation matrix to help with decision making.
+              - Created plots in R from Life Chart redcap database using RedCap API to show correlation between different reported events and overall life periods, along with different PROMIS and self-reported measures.
+              - Wrote a python script to slice skin conductance data using a FFT over sliding window.
+              - Created a C# backend API to upload data gathered from NIH toolbox iPad app used by employees and researchers in the institute.
+
             technologies: "Node.js, Express framework, Javascript, Python, R, Git, Gitlab, Bash, HTML, CSS"
       - company: New York Genome Center
         location: NY, New York
@@ -118,8 +118,9 @@ experiences:
           - name: Student Intern
             time: June 2016 - August 2016
             details: |
-              -	Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
-              -	Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon SQS service and EC2 instances to process 1.8TB of data and published the data for scientist to utilize the files.
+              - Generate list of information with a python script from a PostgreSQL database to output 635 user’s information.
+              - Gathering public information from the Personal Genome Project and pipe through an imputation pipeline through horizontal scaling using Amazon AWS SQS service and EC2 instances to process 1.8TB of data and published the data for the scientific community to utilize.
+
             technologies: "AWS, Python, Bash, Javascript, HTML, CSS"
 
 certifications:
@@ -130,9 +131,11 @@ certifications:
       end: Present
       organization: Peniel Baptist Church
       details: |
-        -	Responsible for purchasing Audio, Video and Network Equipment for the entire campus.
-        -	Training and mentoring volunteers using software like ProPresenter, dante, audio and video equipment.
-        -	Directing program and preparing visuals each Sunday as well as mixing the Front of House audio.
+        - Responsible for purchasing Audio, Video and Network Equipment for the entire campus.
+        - Setting up network infrastructure for guests and audio Dante networking to route audio channels to use with live broadcast.
+        - Training and mentoring volunteers using audio and video equipment.
+        - Directing program and preparing visuals each Sunday as well as mixing the front of house audio.
+
       technologies: "Dante, ATEM, ProPresenter, Behringer X32"
     - name: Treasurer
       start: August 2016
@@ -142,9 +145,6 @@ certifications:
         -	Filling out disbursements and submitting to the organization account
         -	Collaborating with other members to seek solutions for higher attendance.
         -	Tutoring students taking electrical science and network analysis.
-
-  
-
 
 projects:
     title: Projects
@@ -168,6 +168,12 @@ projects:
       
       - title: Asian Chef Delivery
         link: "https://asianchefdelivery.net"
+
+      - title: Tulsa Life Chart v1
+        link: "https://laureate-institute-for-brain-research.github.io/tlc/"
+
+      - title: LIBR Tasks
+        link: "http://tasks.laureateinstitute.org"
 
 skills:
     title: Skills &amp; Proficiency
